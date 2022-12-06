@@ -9,7 +9,7 @@ class pessoa {
 class livro  { //função dentro da classe
     Nome;
     PreçoOriginal;
-    Construtor(Nome, PreçoOriginal){
+    constructor(Nome, PreçoOriginal){
         this.PreçoOriginal = PreçoOriginal;
         this.Nome = Nome;
     }
